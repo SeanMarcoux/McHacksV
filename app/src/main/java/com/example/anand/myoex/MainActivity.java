@@ -38,8 +38,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Launch the ScanActivity to scan for Myos to connect to.
-        Intent intent = new Intent(this, ScanActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, ScanActivity.class);
+//        startActivity(intent);
+        // Use this instead to connect with a Myo that is very near (ie. almost touching) the device
+        Hub.getInstance().attachToAdjacentMyo();
     }
 
 }
