@@ -1,4 +1,4 @@
-package com.example.anand.myoex;
+package com.mchacksv.myopiano;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.anand.myoex;
+package com.mchacksv.myopiano;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.anand.myoex", appContext.getPackageName());
+        assertEquals("com.mchacksv.myopiano", appContext.getPackageName());
     }
 }
